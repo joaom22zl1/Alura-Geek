@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt=BR">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Alura Tube" />
+    <meta name="author" content="João Marcos" />
+
+    <link rel="stylesheet" media="(max-width: 600px)" href="src/mobile.css" />
+    <link
+      rel="stylesheet"
+      media="(min-width: 600px) and (max-width: 800px)"
+      href="src/tablet.css"
+    />
+    <link rel="stylesheet" media="(min-width:800px)" href="src/style.css" />
+    <title>Alura Geek</title>
+  </head>
+  <body>
+    <header id="cabecalho">
+      <div id="cabecalho-logo-searchbox-div">
+        <img
+          src="public/logo-alura-geek.svg"
+          alt="Logo Alura Geek"
+          id="logo-alura-geek"
+        />
+        <input
+          type="search"
+          name="barraDePesquisa"
+          id="search-box"
+          placeholder="O que deseja encontrar?"
+        />
+        <img src="public/search-icon.svg" alt="" id="input-search-icon" />
+      </div>
+      <div id="cabecalho-button-div"><button>Login</button></div>
+    </header>
+    <main>
+      <div id="banner">
+        <div id="banner-content">
+          <h1 id="banner-titulo">Dezembro Promocional</h1>
+          <h2 id="banner-subtitulo">
+            Produtos selecionados com 33% de desconto
+          </h2>
+          <button id="banner-botao">Ver Consoles</button>
+        </div>
+      </div>
+
+      <section id="cards-games"></section>
+
+      <div id="about">
+        <img src="public/logo-alura-geek.svg" alt="" id="about-logo" />
+        <div id="about-text-content">
+          <p class="about-p">Quem somos nós</p>
+          <p class="about-p">Política de Privacidade</p>
+          <p class="about-p">Programa Fidelidade</p>
+          <p class="about-p">Nossas Lojas</p>
+          <p class="about-p">Quero ser franqueado</p>
+          <p class="about-p">Anuncie aqui</p>
+        </div>
+        <div id="talk-w-us">
+          <h3 id="talk-w-us-h3">Fale conosco</h3>
+          <label for="talk-w-us-input-name">
+            <input
+              id="talk-w-us-input-name"
+              type="text"
+              name="talk-w-us-input-name"
+              placeholder=""
+            />
+          </label>
+          <input
+            id="talk-w-us-input-mensage"
+            type="text"
+            placeholder="Escreva sua mensagem"
+          />
+          <button id="talk-w-us-button">Enviar mensagem</button>
+        </div>
+      </div>
+    </main>
+    <footer id="rodape">
+      <p>Desenvolvido por João Marcos</p>
+      <p>2022</p>
+    </footer>
+    <script src="src/main.js"></script>
+  </body>
+</html>
